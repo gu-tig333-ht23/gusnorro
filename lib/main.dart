@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+//Innehållet på To Do list sidan
 class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
 
@@ -48,6 +49,7 @@ class MyHomePage extends StatelessWidget {
   }
 }
 
+//Widget till att göra en ny To Do punkt
 Widget _toDoItems(String toDo) {
   return Row(
     mainAxisAlignment: MainAxisAlignment.start,
